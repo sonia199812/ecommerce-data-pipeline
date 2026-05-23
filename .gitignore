@@ -1,6 +1,1 @@
-pyspark/
-*.jar
-output/
-__pycache__/
-*.log
-.env
+.idea/
