@@ -42,9 +42,9 @@ df_transformed.groupBy("Category").sum("Profit").show()
 df_transformed.groupBy("City").sum("SalesAmount").show()
 
 # 9. WRITE OUTPUT (PROCESSED LAYER)
-df_transformed.write.mode("overwrite").parquet(
-    "s3://retailprocesseddatasonia/processed/sales/"
-)
+df_transformed.write.mode("overwrite") \
+    .partitionBy("Region") \
+    .parquet("s3://retailprocesseddatasonia/processed/sales/")
 
 # 10. Commit Job
 job.commit()
