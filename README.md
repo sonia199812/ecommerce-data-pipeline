@@ -57,7 +57,7 @@ ecommerce-data-pipeline/
     └── glue_etl_job.py
 
 ├── datasets/
-│   └── retail_sales.csv
+│   └── SampleSuperstore.csv
 
 ├── sql/
 │   └── athena_queries.sql
