@@ -53,7 +53,8 @@ ecommerce-data-pipeline/
 │   └── glue_pipeline_dag.py
 
 ├── pyspark/
-│   └── retail_etl.py
+│   └── etl_job.py
+    └── glue_etl_job.py
 
 ├── datasets/
 │   └── retail_sales.csv
