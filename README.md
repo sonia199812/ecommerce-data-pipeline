@@ -38,9 +38,6 @@ Apache Airflow DAG Automation
 * AWS Athena
 * Apache Airflow
 * Docker
-* boto3
-* PostgreSQL
-* Redis
 * Git & GitHub
 
 ---
