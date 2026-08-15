@@ -32,7 +32,6 @@ Apache Airflow DAG Automation
 
 * Python
 * PySpark
-* Apache Spark
 * AWS S3
 * AWS Glue
 * AWS Athena
